@@ -1,12 +1,12 @@
 <div id="top"><img src="https://img.shields.io/github/license/visusys/VSYSContextMenuWrappers?style=flat-square"></div>
 
-
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/visusys">
     <img src="images/logo.png" alt="Logo" width="122" height="116">
   </a>
   <h3 align="center">VSYS Context Menu Wrappers</h3>
 </div>
+
 
 <p align="center">
 A growing library of PowerShell scripts designed to be utilized by the Windows 10/11 context menu for rapid automation of all sorts of useful tasks: Convert between image formats, rename files, extract audio from videos, duplicate folder structures, generate random data for testing, and much, much more.
