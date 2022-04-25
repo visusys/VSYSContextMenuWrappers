@@ -15,7 +15,7 @@ param (
 
 $Folder = $Folder.TrimEnd([IO.Path]::DirectorySeparatorChar)
 
-$IsUnsafe = (Test-IsWindowsPathUnsafe $Folder).IsUnsafe
+$IsUnsafe = Test-IsWindowsPathUnsafe $Folder
 
 if($IsUnsafe){
     Invoke-VBMessageBox "Deletion has been blocked for safety. ($Folder)" -Title "Deletion Blocked" -Icon Critical -BoxType OKOnly -DefaultButton 1
